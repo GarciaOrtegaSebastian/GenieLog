@@ -13,7 +13,7 @@ public class UseSuperPile
 
 	public static void main()
 		{
-		remplirPile(7);
+		remplirPile(9);
 		System.out.println();
 
 		SuperPile.getInstance().taille();
@@ -21,8 +21,11 @@ public class UseSuperPile
 		SuperPile.getInstance().sousSommet();
 		System.out.println();
 
-		viderPile(8);
+		viderPile(10);
 		SuperPile.getInstance().taille();
+		System.out.println();
+
+		testGit();
 		}
 
 	/*------------------------------------------------------------------*\
@@ -43,4 +46,8 @@ public class UseSuperPile
 			SuperPile.getInstance().depiler();
 			}
 		}
+	private static void testGit()
+	{
+	System.out.println("GIT!!!");
+	}
 	}
